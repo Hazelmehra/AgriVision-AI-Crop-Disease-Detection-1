@@ -31,8 +31,17 @@ PlantVillage Dataset
 - Train Validation Test Split
 - Data Augmentation
 
-## Future Work
-- CNN Model
-- Transfer Learning
-- Streamlit Deployment
-- Mobile Integration
+## Week 2
+Custom CNN Model
+- Conv2D Layers
+- MaxPooling Layers
+- Dropout
+- EarlyStopping
+- Model Training
+
+# Model Performance
+
+- Training Accuracy: 82%
+- Validation Accuracy: 87%
+- Test Accuracy: 86.43%
+- Test Loss: 0.3834
