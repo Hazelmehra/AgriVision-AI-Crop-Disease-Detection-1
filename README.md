@@ -39,7 +39,7 @@ Custom CNN Model
 - EarlyStopping
 - Model Training
 
-  ## Development Environment
+## Development Environment
 - Google Colab
 - Python
 - TensorFlow/Keras
