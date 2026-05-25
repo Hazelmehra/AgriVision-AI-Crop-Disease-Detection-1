@@ -34,6 +34,17 @@ Disease Prediction
    ↓
 Result Output
 
+## Repository Structure
+AgriVision-AI-Crop-Disease-Detection-1/
+│
+├── images/
+├── models/
+├── notebooks/
+├── src/
+├── README.md
+├── requirements.txt
+└── crop_disease_hazel.ipynb
+
 
 ## Week 1
 - Dataset Collection
