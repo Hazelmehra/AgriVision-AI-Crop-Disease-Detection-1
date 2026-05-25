@@ -39,6 +39,12 @@ Custom CNN Model
 - EarlyStopping
 - Model Training
 
+  ## Development Environment
+- Google Colab
+- Python
+- TensorFlow/Keras
+- OpenCV
+
 # Model Performance
 
 - Training Accuracy: 82%
