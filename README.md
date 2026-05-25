@@ -21,6 +21,20 @@ This project detects crop diseases using Deep Learning and Computer Vision techn
 ## Dataset
 PlantVillage Dataset
 
+## Project Workflow
+Leaf Image
+   ↓
+Image Preprocessing
+   ↓
+Data Augmentation
+   ↓
+CNN Model Training
+   ↓
+Disease Prediction
+   ↓
+Result Output
+
+
 ## Week 1
 - Dataset Collection
 - Image EDA
