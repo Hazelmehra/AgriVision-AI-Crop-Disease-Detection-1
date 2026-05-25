@@ -76,3 +76,11 @@ Custom CNN Model
 - Validation Accuracy: 87%
 - Test Accuracy: 86.43%
 - Test Loss: 0.3834
+
+## Future Scope
+
+- Real-time crop disease detection
+- Mobile application integration
+- Web deployment using Flask/Streamlit
+- Multi-crop disease classification
+- IoT-based smart farming integration
