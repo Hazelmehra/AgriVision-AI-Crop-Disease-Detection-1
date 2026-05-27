@@ -80,7 +80,5 @@ Custom CNN Model
 ## Future Scope
 
 - Real-time crop disease detection
-- Mobile application integration
-- Web deployment using Flask/Streamlit
 - Multi-crop disease classification
 - IoT-based smart farming integration
