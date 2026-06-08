@@ -167,6 +167,16 @@ Traditional crop disease detection relies on manual inspection by agricultural e
 | Invalid image filename warning in validation generator | Identified and acknowledged the corrupted file — it was automatically skipped |
 | Streamlit not starting before ngrok connects | Added time.sleep(4) between starting Streamlit and connecting ngrok |
 
+## 🔮 Future Improvements
+
+- Add more crop types beyond tomato, potato and pepper
+- Implement fine-tuning of MobileNetV2 layers for even higher accuracy
+- Add treatment recommendations alongside disease detection
+- Deploy on a permanent cloud platform like Heroku or AWS instead of ngrok
+- Build a mobile app version for farmers without laptop access
+- Add support for real-time camera feed instead of only image upload
+- Collect real field photographs to supplement the controlled PlantVillage images
+
 
 ## 👩‍💻 Intern Details
 - Name: Hazel Mehra
