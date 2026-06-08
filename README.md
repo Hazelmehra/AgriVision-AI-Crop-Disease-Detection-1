@@ -109,6 +109,17 @@ Traditional crop disease detection relies on manual inspection by agricultural e
 - Displays predicted disease name in green success box
 - Displays confidence score in blue info box
 
+  ## 📊 Model Performance Comparison
+
+| Model | Architecture | Test Accuracy | Test Loss | Epochs Trained |
+|-------|-------------|---------------|-----------|----------------|
+| Baseline CNN | Custom 3-layer CNN | 86.43% | 0.3834 | 14 |
+| Transfer Learning | MobileNetV2 | Higher | Lower | 10 |
+
+**Key Improvement:** Transfer Learning with MobileNetV2 achieved higher accuracy 
+in fewer epochs because it leveraged features already learned from 1.2 million 
+ImageNet images, demonstrating the power of Transfer Learning over training from scratch.
+
 ## 🛠️ Technology Stack
 
 | Component | Technology |
