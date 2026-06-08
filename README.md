@@ -156,6 +156,18 @@ Traditional crop disease detection relies on manual inspection by agricultural e
 | GlobalAveragePooling2D | More compact than Flatten and reduces overfitting in transfer learning |
 | fit only on training data | Prevents data leakage in Label Encoding |
 
+## ⚠️ Challenges Faced and Solutions
+
+| Challenge | Solution |
+|-----------|----------|
+| Dataset imbalance — some classes had 20x more images than others | Used stratified splitting and data augmentation to handle imbalance |
+| RAM overflow when loading 20,000 images | Switched to ImageDataGenerator streaming — loads 32 images at a time |
+| BGR vs RGB color mismatch in OpenCV | Used cv2.cvtColor to convert BGR to RGB before display |
+| Overfitting in custom CNN | Added Dropout(0.5) and Early Stopping with patience=3 |
+| Invalid image filename warning in validation generator | Identified and acknowledged the corrupted file — it was automatically skipped |
+| Streamlit not starting before ngrok connects | Added time.sleep(4) between starting Streamlit and connecting ngrok |
+
+
 ## 👩‍💻 Intern Details
 - Name: Hazel Mehra
 - Organization: Infotact Solutions and Co.
