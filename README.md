@@ -109,7 +109,7 @@ Traditional crop disease detection relies on manual inspection by agricultural e
 - Displays predicted disease name in green success box
 - Displays confidence score in blue info box
 
-  ## 📊 Model Performance Comparison
+ ## 📊 Model Performance Comparison
 
 | Model | Architecture | Test Accuracy | Test Loss | Epochs Trained |
 |-------|-------------|---------------|-----------|----------------|
